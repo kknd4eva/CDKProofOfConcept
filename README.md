@@ -1,14 +1,6 @@
-# Welcome to your CDK C# project!
+# CDK Proof of Concept solution
+## A small repository to highlight how to build serverless resources using AWS CDK.
 
-This is a blank project for CDK development with C#.
+This POC project is part of my own exploration of AWS CDK to replace AWS SAM as a means to describe cloud resources in AWS. The solution will deploy a REST API via an API Gateway, and 2 Lambda functions. 
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-It uses the [.NET Core CLI](https://docs.microsoft.com/dotnet/articles/core/) to compile and execute your project.
-
-## Useful commands
-
-* `dotnet build src` compile this app
-* `cdk deploy`       deploy this stack to your default AWS account/region
-* `cdk diff`         compare deployed stack with current state
-* `cdk synth`        emits the synthesized CloudFormation template
+You can read the full article here -> https://www.linkedin.com/pulse/beginning-journey-from-sam-cdk-aws-cloud-development-james-matson/?trackingId=udFAWqtXTjiDx4%2BuQsGotA%3D%3D
