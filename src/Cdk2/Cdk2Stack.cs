@@ -1,4 +1,6 @@
 using Amazon.CDK;
+using Amazon.CDK.AWS.APIGateway;
+using Amazon.CDK.AWS.Lambda;
 using Constructs;
 
 namespace Cdk2
@@ -7,7 +9,7 @@ namespace Cdk2
     {
         internal Cdk2Stack(Construct scope, string id, IStackProps props = null) : base(scope, id, props)
         {
-            // The code that defines your stack goes here
+            new DotNetApiService(this, "DotNetApiService");
         }
     }
 }
